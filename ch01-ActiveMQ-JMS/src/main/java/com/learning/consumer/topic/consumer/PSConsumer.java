@@ -1,4 +1,4 @@
-package com.learning.topic.consumer;
+package com.learning.consumer.topic.consumer;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
