@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false #false点对点队列模式(queue);true:发布订阅模式（topic）
+activemq:
+  name: springboot_queue
